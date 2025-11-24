@@ -1,25 +1,25 @@
 # Calendar-
 # Smart Calendar Application Documentation
 
-## 🎯 **Problem Statement**
+## **Problem Statement**
 - Users struggle with manual event organization and prioritization
 - No intelligent suggestions for event categorization
 - Poor visualization of schedules and conflicts
 - Time-consuming manual calendar management
 
-## 📋 **Objectives**
+## **Objectives**
 - Develop automated calendar system with CRUD operations
 - Implement ML-powered event classification and priority prediction
 - Create intuitive calendar visualization
 - Ensure reliable data persistence and error handling
 
-## ⚙️ **Functional Requirements**
+## **Functional Requirements**
 - **CRUD Operations**: Create, Read, Update, Delete events
 - **ML Predictions**: Auto-categorize events and predict priority
 - **Visualization**: Monthly/daily views and schedule simulation
 - **Data Management**: JSON storage with validation
 
-## 🛡️ **Non-Functional Requirements**
+## **Non-Functional Requirements**
 - **Performance**: Fast response times (<2s)
 - **Security**: Input validation and data integrity
 - **Usability**: Intuitive menu-driven interface
@@ -27,7 +27,7 @@
 - **Maintainability**: Modular code structure
 - **Error Handling**: Comprehensive validation and logging
 
-## 🏗️ **System Architecture**
+## **System Architecture**
 ```
 User Interface → Application Layer → Services Layer → Data Layer
      ↓                ↓                  ↓              ↓
@@ -35,13 +35,13 @@ User Interface → Application Layer → Services Layer → Data Layer
                  Visualizer         Validator
 ```
 
-## 🔄 **Process Flow**
+## **Process Flow**
 1. User authentication → Main menu → Select operation
 2. CRUD: Validate input → Process → Save → Confirm
 3. ML: Input event details → Predict → Suggest → Apply
 4. Visualization: Select view → Generate → Display
 
-## 📊 **UML Diagrams**
+## **UML Diagrams**
 
 ### **Use Case Diagram**
 ```
@@ -65,7 +65,7 @@ User → MainApp → CalendarManager → JSON Storage
      → Visualizer → Display Output
 ```
 
-## 💾 **Storage Design**
+## **Storage Design**
 
 ### **ER Diagram**
 ```
@@ -97,7 +97,7 @@ User → MainApp → CalendarManager → JSON Storage
 }
 ```
 
-## 🤖 **ML Component**
+## **ML Component**
 
 ### **Dataset Description**
 - **Source**: Synthetic event data with titles/descriptions
@@ -114,7 +114,7 @@ User → MainApp → CalendarManager → JSON Storage
 - **Testing**: Manual validation with sample events
 - **Improvement**: Can integrate with ML libraries later
 
-## 📈 **Key Features**
+## **Key Features**
 - ✅ Complete CRUD operations with validation
 - ✅ Intelligent event classification
 - ✅ Priority prediction system  
@@ -122,33 +122,33 @@ User → MainApp → CalendarManager → JSON Storage
 - ✅ Data persistence
 - ✅ Error handling and logging
 
-- ## 🚀 **Features**
+- ## **Features**
 - Complete CRUD operations for event management
 - ML-powered event categorization & priority prediction  
 - Interactive calendar visualization & daily views
 - JSON data persistence with error handling
 - Intuitive menu-driven interface
 
-## 💻 **Technologies/Tools Used**
+## **Technologies/Tools Used**
 - **Language**: Python 3.x
 - **Libraries**: Standard library (json, datetime, dataclasses)
 - **Storage**: JSON file system
 - **ML**: Rule-based classification algorithm
 
-## 📥 **Installation & Run Steps**
+## **Installation & Run Steps**
 1. **Save code** as `my_calendar.py` (NOT `calendar.py`)
 2. **Ensure Python 3.6+** installed on system
 3. **Run command**: `python my_calendar.py`
 4. **No dependencies** - uses only standard library
 
-## 🧪 **Testing Instructions**
+## **Testing Instructions**
 1. **Test CRUD**: Create, view, update, delete events
 2. **Test ML**: Enter event titles like "urgent meeting" or "lunch with friends"
 3. **Test Visualization**: Use calendar view option
 4. **Verify Persistence**: Restart app to confirm data saves
 5. **Test Validation**: Try invalid dates/times for error handling
 
-## 📸 **Sample Screenshots** (Conceptual)
+## **Sample Screenshots** (Conceptual)
 - Main menu with 6 options
 - Event creation with AI suggestions  
 - Calendar monthly view with event markers
